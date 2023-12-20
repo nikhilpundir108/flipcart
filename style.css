@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+.navbar {
+    /* background-color: aqua; */
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 40px;
+    width: 160px;
+}
+
+.logo {
+    background-image: url(logo-flipkart.svg);
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+}
+
+.search-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 50px;
+    /* border: 0.1px solid black; */
+    border-radius: 2px;
+}
+
+.text {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+input {
+    width: 200%;
+    height: 30px;
+    border: none;
+    background-color: azure;
+    padding-left: 5px;
+    /* border: 0.1px solid black; */
+    /* border-radius: 2px; */
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    margin-left: 4px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seller {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ---------------------------------------------------------- */
+body {
+    background-color: whitesmoke;
+}
+
+.navbar-2 {
+    margin-top: 10px;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.box{
+    height: 80px;
+    width: 80px;
+    background-size: contain;
+}
+/* ---------------------------------------------- */
+.hero-image{
+    margin-top: 20px;
+    height: 250px;
+    width: 100%;
+    background-image: url(hero-image.webp);
+    background-size: cover;
+}
+/* ============================================================= */
+
+.shop-section{
+    margin-top: 10px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.shop-box{
+    height: 140px;
+    width: 170px;
+    background-size: cover;
+    /* border: 2px solid black; */
+}
+.box-contant2{
+    height: 240px;
+    width: 200px;
+    border: 0.1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box-contant2{
+    font-size: large;
+    font-weight: 600;
+}
+.under-price p{
+    font-weight: 200;
+}
